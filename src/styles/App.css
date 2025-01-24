@@ -1,1 +1,26 @@
-
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+}
+input{
+    border: 3px solid black;
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+button{
+    border: 3px solid black;
+    padding: 5px 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.main{
+    align-items: center;
+    text-align: center;
+}
+.weather{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+}
