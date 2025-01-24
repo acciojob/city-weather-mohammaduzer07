@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className="main" id="main">
-      <div className="serach">
+      <div className="search">
         <input type="text" value={input} onChange={handleSearch}/>
         <button onClick={handleDisplay}>Search</button>
       </div>
